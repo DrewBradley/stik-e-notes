@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 class Header extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       title: "",
       info: "",
@@ -18,7 +18,16 @@ class Header extends Component {
 
   handleClick = (event) => {
     event.preventDefault()
-    console.log(this.state)
+    this.props.addNote(this.state)
+    this.clearInputs()
+  }
+
+  clearInputs = () => {
+    this.setState({
+      id: "",
+      title: "",
+      info: ""
+    })
   }
 
   render(){
@@ -31,13 +40,15 @@ class Header extends Component {
             className="title-input"
             placeholder="Title"
             name="title"
+            value={this.state.title}
             onChange={this.handleChange}
           />
           <input 
             type="text"
             className="note-input"
             placeholder="Note..."
-            name="note"
+            name="info"
+            value={this.state.info}
             onChange={this.handleChange}
           />
           <button onClick={this.handleClick}>Add Note</button>

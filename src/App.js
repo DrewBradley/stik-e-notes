@@ -6,7 +6,6 @@ import NoteDisplay from './components/NoteDisplay'
 function App() {
   return (
     <main className="App">
-      <Header />
       <NoteDisplay />
     </main>
   );
