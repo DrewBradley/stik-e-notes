@@ -59,3 +59,16 @@ h1 {
   text-align: center;
   color: rgba(127, 255, 212, 0.6);
 }
+
+button {
+  background-color: burlywood;
+  border: none;
+  cursor: pointer;
+  padding: 2%;
+  transition: 200ms;
+}
+
+button:hover {
+  transform: scale(1.07);
+  transition: 200ms;
+}
