@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import './wood-desk.jpg';
+import './stikenote-logo1-cutout.png'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import logo from "../stikenote-logo1-cutout.png"
 
 class Header extends Component {
   constructor(props) {
@@ -33,8 +34,8 @@ class Header extends Component {
   render(){
     return (
       <header className="header">
-        <img src="" />
         <form>
+        <img src={logo} />
           <input 
             type="text"
             className="title-input"

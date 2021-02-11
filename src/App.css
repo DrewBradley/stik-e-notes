@@ -72,3 +72,7 @@ button:hover {
   transform: scale(1.07);
   transition: 200ms;
 }
+
+img {
+  height: 50px;
+}
