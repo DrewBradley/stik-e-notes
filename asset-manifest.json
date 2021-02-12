@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stik-e-notes/static/css/main.42df4b3d.chunk.css",
+    "main.js": "/stik-e-notes/static/js/main.4821388f.chunk.js",
+    "main.js.map": "/stik-e-notes/static/js/main.4821388f.chunk.js.map",
+    "runtime-main.js": "/stik-e-notes/static/js/runtime-main.e47022e9.js",
+    "runtime-main.js.map": "/stik-e-notes/static/js/runtime-main.e47022e9.js.map",
+    "static/js/2.22899d0d.chunk.js": "/stik-e-notes/static/js/2.22899d0d.chunk.js",
+    "static/js/2.22899d0d.chunk.js.map": "/stik-e-notes/static/js/2.22899d0d.chunk.js.map",
+    "static/js/3.5f9b12db.chunk.js": "/stik-e-notes/static/js/3.5f9b12db.chunk.js",
+    "static/js/3.5f9b12db.chunk.js.map": "/stik-e-notes/static/js/3.5f9b12db.chunk.js.map",
+    "index.html": "/stik-e-notes/index.html",
+    "static/css/main.42df4b3d.chunk.css.map": "/stik-e-notes/static/css/main.42df4b3d.chunk.css.map",
+    "static/js/2.22899d0d.chunk.js.LICENSE.txt": "/stik-e-notes/static/js/2.22899d0d.chunk.js.LICENSE.txt",
+    "static/media/stikenote-logo1-cutout.05ac087b.png": "/stik-e-notes/static/media/stikenote-logo1-cutout.05ac087b.png",
+    "static/media/index.css": "/stik-e-notes/static/media/wood-desk.2ea81336.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e47022e9.js",
+    "static/js/2.22899d0d.chunk.js",
+    "static/css/main.42df4b3d.chunk.css",
+    "static/js/main.4821388f.chunk.js"
+  ]
+}
