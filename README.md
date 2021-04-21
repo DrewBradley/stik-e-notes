@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# STIK-E-NOTES
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### Table of Contents
+- [Introduction](#Introduction)
+- [Features](#Features)
+- [Technologies](#Techologies)
+- [Contributions](#Contributions)
+- [Authors](#Authors)
+---
+## Introduction
 
-In the project directory, you can run:
+This app was built over the weekend to demonstrate [React](https://reactjs.org/). Stik-e-notes is a simple CRUD app that allows users to make notes, that are stored on local storage.
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To view please:
+- please visit [here](https://drewbradley.github.io/stik-e-notes/) to interact and view the website.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Categories:
+- [Home Page](#Home-Page)
 
-### `yarn test`
+- [Add Notes](#Add-notes)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Delete Notes](#Delete-notes)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Home Page
+Upon arrival there are no notes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>Home page example</summary>
+<br>
+ <img width="450" alt="No notes" src="https://user-images.githubusercontent.com/64617435/115609080-50457e80-a2a4-11eb-98e2-7521906b0064.png">
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Add Notes
+Users can add a new note.
 
-### `yarn eject`
+<details>
+<summary>Adding a note</summary>
+<br>
+<img width="450" alt="Adding a note" src="https://media.giphy.com/media/P1rhPs1Dp1olzlBXTG/giphy.gif">
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Delete Notes
+Users can delete a note or two.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+<summary>Deleting a note</summary>
+<br>
+<img width="450" alt="Deleting a note" src="https://media.giphy.com/media/TiJxQRnlo54u35i6gW/giphy.gif">
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies
+- React
+- CSS
+- HTML
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thank you.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+<table>
+    <tr>
+        <td> Drew Bradley <a href="https://github.com/DrewBradley">GH</td>
+    </tr>
+ <td><img src="https://avatars.githubusercontent.com/u/64617435?v=4" alt="Drew Bradley"
+ width="150" height="auto" /></td>
+</table>
